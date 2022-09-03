@@ -1,4 +1,9 @@
-package com.janet.simplefactorymode;
+package com.janet.designpattern.simplefactory;
+
+import com.janet.designpattern.simplefactory.oper.impl.OperationDiv;
+import com.janet.designpattern.simplefactory.oper.impl.OperationMul;
+import com.janet.designpattern.simplefactory.oper.impl.OperationAdd;
+import com.janet.designpattern.simplefactory.oper.impl.OperationSub;
 
 /**
  * @Description 简单运算的工厂类，由于创建了四个加减乘除类和他们的父类，以后到底要实例化谁是不确定的，所以可以用工厂来解决这个问题。

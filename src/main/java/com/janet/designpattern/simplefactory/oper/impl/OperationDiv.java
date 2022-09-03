@@ -1,4 +1,6 @@
-package com.janet.simplefactorymode;
+package com.janet.designpattern.simplefactory.oper.impl;
+
+import com.janet.designpattern.simplefactory.Operation;
 
 /**
  * @Description 除法类，继承运算类 Operation 以及重写方法 getResult

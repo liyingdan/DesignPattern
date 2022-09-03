@@ -1,4 +1,4 @@
-package com.janet.simplefactorymode;
+package com.janet.designpattern.simplefactory;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Author Janet
  * @Date 2020/6/14
  */
-public class SimpleFactoryMode1 {
+public class OperationExample {
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);

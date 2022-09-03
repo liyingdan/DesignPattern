@@ -1,4 +1,4 @@
-package com.janet.simplefactorymode;
+package com.janet.designpattern.simplefactory;
 
 /**
  * @Description 一个面试题：请用 C++、Java、C# 或 VB.NET 任意一种面向对象语言实现一个计算器控制台程序，要求输入两个数和运算符号，得到结果。
@@ -7,7 +7,7 @@ package com.janet.simplefactorymode;
  * @Author Janet
  * @Date 2020/6/14
  */
-public class SimpleFactoryMode2 {
+public class SimpleFactoryExample {
     public static void main(String[] args) {
 //        Operation operation = OperationFactory.createOperation("+");
 //        operation.setNumber1(1);
