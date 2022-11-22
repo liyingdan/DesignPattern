@@ -1,4 +1,4 @@
-package com.janet.designpattern.simplefactory;
+package com.janet.designpattern.factory.simplefactory;
 
 import java.util.Scanner;
 

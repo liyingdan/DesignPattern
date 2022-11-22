@@ -5,7 +5,7 @@ package com.janet.designpattern.strategy.strategydemo;
  * @Author Janet
  * @Date 2022-09-03
  */
-public class ConcreteStrategyC extends Strategy {
+public class ConcreteStrategyC implements Strategy {
     /**
      * 算法C实现方法
      */

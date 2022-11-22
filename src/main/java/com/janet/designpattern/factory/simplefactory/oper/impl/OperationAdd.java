@@ -1,6 +1,6 @@
-package com.janet.designpattern.simplefactory.oper.impl;
+package com.janet.designpattern.factory.simplefactory.oper.impl;
 
-import com.janet.designpattern.simplefactory.Operation;
+import com.janet.designpattern.factory.simplefactory.Operation;
 
 /**
  * @Description 加法类，继承运算类 Operation 以及重写方法 getResult

@@ -6,7 +6,7 @@ package com.janet.designpattern.strategy.strategydemo;
  * @Date 2022-09-03
  */
 public class Context {
-    Strategy strategy;
+    private Strategy strategy;
 
     /**
      * 初始化时，传入具体的策略对象

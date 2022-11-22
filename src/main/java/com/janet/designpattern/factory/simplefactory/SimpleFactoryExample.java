@@ -1,4 +1,4 @@
-package com.janet.designpattern.simplefactory;
+package com.janet.designpattern.factory.simplefactory;
 
 /**
  * @Description 一个面试题：请用 C++、Java、C# 或 VB.NET 任意一种面向对象语言实现一个计算器控制台程序，要求输入两个数和运算符号，得到结果。

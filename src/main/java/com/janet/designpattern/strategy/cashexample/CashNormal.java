@@ -5,7 +5,7 @@ package com.janet.designpattern.strategy.cashexample;
  * @Author Janet
  * @Date 2022-09-03
  */
-public class CashNormal extends CashSuper {
+public class CashNormal implements CashSuper {
     /**
      * 正常收费，原价返回
      * @param money  原价

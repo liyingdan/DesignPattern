@@ -5,7 +5,7 @@ package com.janet.designpattern.strategy.cashexample;
  * @Author Janet
  * @Date 2022-09-03
  */
-public class CashRebate extends CashSuper {
+public class CashRebate implements CashSuper {
     private double moneyRebate = 1d;
 
     /**

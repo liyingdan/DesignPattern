@@ -5,7 +5,7 @@ package com.janet.designpattern.strategy.cashexample;
  * @Author Janet
  * @Date 2022-09-03
  */
-public class CashReturn extends CashSuper {
+public class CashReturn implements CashSuper {
     private double moneyCondition = 0.0d;
     private double moneyReturn = 0.0d;
 
