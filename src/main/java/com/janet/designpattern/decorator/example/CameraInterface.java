@@ -1,7 +1,7 @@
 package com.janet.designpattern.decorator.example;
 
 /**
- * 相机接口类
+ * 相机接口
  */
 public interface CameraInterface {
     /**

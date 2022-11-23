@@ -7,9 +7,26 @@ package com.janet.designpattern.decorator.example;
  */
 public class DemoTest {
     public static void main(String[] args) {
-        Decorator newCanonCamera = new Decorator(new CanonCamera());
-        newCanonCamera.takePicture();
-        newCanonCamera.takeVideo();
-        newCanonCamera.flash();
+
+        System.out.println("原相机-----------");
+        CanonCamera canonCamera = new CanonCamera();
+        canonCamera.takePicture();
+        canonCamera.takeVideo();
+
+        System.out.println();
+
+        System.out.println("加了闪光灯的相机-----------");
+        FlashDecorator flashDecorator = new FlashDecorator(canonCamera);
+        flashDecorator.takePicture();
+        flashDecorator.takeVideo();
+
+
+        System.out.println();
+
+        System.out.println("加了闪光灯和三脚架的相机-----------");
+        TripodDecorator tripodDecorator = new TripodDecorator(flashDecorator);
+        tripodDecorator.takePicture();
+        tripodDecorator.takeVideo();
+
     }
 }
